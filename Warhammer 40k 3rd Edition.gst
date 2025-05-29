@@ -3351,19 +3351,19 @@ Haywire grenades may only be used against Dreadnoughts if the Dreadnought is imm
     </profile>
     <profile id="9edb-0754-ffa8-9dd3" name="Thunder Hammer" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="deb8-131d-bdcf-1376"/>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844"/>
         <characteristic name="AP" typeId="25ce-028f-0aae-2855"/>
-        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13"/>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Melee</characteristic>
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Doubles strength up to 10 &amp; ignores armor saves but attacks last. Any model wounded by it may not attack again until the end of the next Assault Phase. Vehicles struck are &quot;crew shaken&quot;</characteristic>
       </characteristics>
     </profile>
     <profile id="a161-ed4b-bcb7-0a01" name="Power Fist" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="deb8-131d-bdcf-1376"/>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844"/>
         <characteristic name="AP" typeId="25ce-028f-0aae-2855"/>
-        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13"/>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Melee</characteristic>
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Doubles Strength up to 10 &amp; ignores armor saves, but attacks last</characteristic>
       </characteristics>
     </profile>
@@ -3378,10 +3378,10 @@ Haywire grenades may only be used against Dreadnoughts if the Dreadnought is imm
     </profile>
     <profile id="b063-0e0a-050c-3114" name="Chainfist" hidden="true" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="deb8-131d-bdcf-1376"/>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844"/>
         <characteristic name="AP" typeId="25ce-028f-0aae-2855"/>
-        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13"/>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Melee</characteristic>
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Doubles user&apos;s Strength up to 10. Roll 2D6 for armor penetration. Attacks last.</characteristic>
       </characteristics>
     </profile>

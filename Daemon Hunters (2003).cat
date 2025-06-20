@@ -5263,7 +5263,23 @@ During the Imperial Guard Shooting Phase the Cyclops can be detonated. Place the
         <categoryLink id="00b9-541c-a813-79f0" name="Dedicated Transport" hidden="false" targetId="a090-a855-c7de-f5c3" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="73b1-e61d-ee72-3f92" name="Daemon Hunters Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="0563-f3dc-3db7-5c09" type="selectionEntryGroup"/>
+        <entryLink id="73b1-e61d-ee72-3f92" name="Daemon Hunters Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="0563-f3dc-3db7-5c09" type="selectionEntryGroup">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Dozer Blade" hidden="false" id="9065-1a69-f4fa-9455" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f992-22be-ab24-e7b6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <rules>
+                <rule name="Dozer Blade" id="96f5-5fb4-cc07-248e" hidden="false">
+                  <description>Re-roll failed Difficult Terrain tests as long as the model did not move more than 6&quot; that turn.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="50"/>
